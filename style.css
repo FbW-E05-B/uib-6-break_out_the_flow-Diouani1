@@ -3,4 +3,32 @@ html, body {
     padding: 0;
     height: 100%;
 }
-
+div{
+    width: 200px;
+    height: 200px;
+}
+.halloword{
+    background-color: orange;
+    margin: auto;
+    position: relative ;
+    left: 5px;
+    top: 7px;
+}
+.box1{
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+}
+.box2{
+    background-color: rgb(0, 255, 85);
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    z-index: 1;
+}
+.box3{
+    background-color: rgb(0, 183, 255);
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
